@@ -42,15 +42,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                         <div class="card-content">
                             <div class="row">
                                 <div class="input-field col s12">
-                                    <input type="text" id="username" name="username">
+                                    <input type="text" id="username" name="username" required class="validate">
                                     <label for="username">Username</label>
                                 </div>
                                 <div class="input-field col s12">
-                                    <input type="password" id="password" name="password">
+                                    <input type="password" id="password" name="password" required class="validate" minlength="8">
                                     <label for="password">Password</label>
                                 </div>
                                 <div class="input-field col s12">
-                                    <input type="password" id="confirmPassword" name="confirmPassword">
+                                    <input type="password" id="confirmPassword" name="confirmPassword" required class="validate" minlength="8">
                                     <label for="confirmPassword">Konfirmasi Password</label>
                                 </div>
                                 <div class="col s12 right-align">

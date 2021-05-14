@@ -48,15 +48,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                         <span class="card-title">Ubah Password</span>
                         <div class="row">
                             <div class="input-field col s12">
-                                <input type="password" id="oldPassword" name="oldPassword">
+                                <input type="password" id="oldPassword" name="oldPassword" required class="validate" minlength="8">
                                 <label for="oldPassword">Password Lama</label>
                             </div>
                             <div class="input-field col s12">
-                                <input type="password" id="newPassword" name="newPassword">
+                                <input type="password" id="newPassword" name="newPassword" required class="validate" minlength="8">
                                 <label for="newPassword">Password Baru</label>
                             </div>
                             <div class="input-field col s12">
-                                <input type="password" id="confirmPassword" name="confirmPassword">
+                                <input type="password" id="confirmPassword" name="confirmPassword" required class="validate" minlength="8">
                                 <label for="confirmPassword">Konfirmasi Password Baru</label>
                             </div>
                             <div class="col s12 right-align">

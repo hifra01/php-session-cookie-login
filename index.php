@@ -85,9 +85,6 @@
             </tbody>
         </table>
     </div>
-    <div class="row">
-        <p>Dibuat oleh: Hilman Fathur Rakhmad - 192410102043 - Pemrograman Berbasis Web E</p>
-    </div>
 </main>
 <footer class="page-footer <?= $theme ?>">
     <div class="container">
@@ -107,7 +104,7 @@
     </div>
     <div class="footer-copyright">
         <div class="container">
-            Dibuat menggunakan Materialize CSS
+            Dibuat menggunakan <a href="https://materializecss.com/" class="grey-text text-lighten-4" target="_blank">Materialize CSS</a>
         </div>
     </div>
 </footer>
