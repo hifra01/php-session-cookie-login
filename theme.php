@@ -11,6 +11,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["theme"])) {
 }
 
 ?>
+<?php
+require_once './template/html_header.php';
+require_once './template/navbar.php';
+?>
 
 <div class="container">
     <h1>Atur Tema</h1>

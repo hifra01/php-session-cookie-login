@@ -38,6 +38,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 }
 
 ?>
+<?php
+require_once './template/html_header.php';
+require_once './template/navbar.php';
+?>
 <div class="container">
     <h1>Pengaturan Akun</h1>
     <div class="row">

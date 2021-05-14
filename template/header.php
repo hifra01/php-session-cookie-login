@@ -1,8 +1,6 @@
 <?php
 require_once './template/session_and_cookie.php';
 require_once './database/database.php';
-require_once './template/html_header.php';
-require_once './template/navbar.php';
 
 function isLoggedIn(): bool
 {

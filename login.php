@@ -15,7 +15,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["username"]) && isset($
         $result_count = $query->rowCount();
         if ($result_count > 0){
             $result = $query->fetch();
-            echo $result;
             $_SESSION['username'] = $result['username'];
             $_SESSION['user_id'] = $result['id'];
             header('Location: ./');
@@ -27,6 +26,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["username"]) && isset($
     }
 }
 
+?>
+<?php
+require_once './template/html_header.php';
+require_once './template/navbar.php';
 ?>
 
     <div class="container">

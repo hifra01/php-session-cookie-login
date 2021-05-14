@@ -1,4 +1,7 @@
-<?php require_once './template/header.php'; ?>
+<?php require_once './template/header.php';
+require_once './template/html_header.php';
+require_once './template/navbar.php'; ?>
+
 
 <main class="container">
     <?php if (!isLoggedIn()): ?>
